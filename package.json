@@ -1,4 +1,12 @@
-"scripts": {
-  "sass": "sass src/scss:css",
-  "sass:watch": "sass --watch src/scss:css"
+{
+  "name": "meet_landing_page",
+  "version": "1.0.0",
+  "scripts": {
+    "sass": "sass src/scss:css",
+    "sass:watch": "sass --watch src/scss:css --style=expanded",
+    "sass:build": "sass src/scss:css --style=compressed"
+  },
+  "devDependencies": {
+    "sass": "^1.70.0"
+  }
 }
